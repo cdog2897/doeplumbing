@@ -37,12 +37,6 @@ const services: { icon: IconName; title: string; description: string }[] = [
   { icon: 'wrench', title: 'General plumbing', description: 'Practical plumbing help for repairs, updates, and the jobs on your to-do list.' },
   { icon: 'building', title: 'Commercial plumbing', description: 'Plumbing service for local businesses and commercial properties.' },
 ]
-const faqs = [
-  { question: 'Do you take on small plumbing jobs?', answer: 'Yes. From a dripping faucet to a larger repair, call and tell us what is going on. No job is too small to ask about.' },
-  { question: 'Do you work with homes and businesses?', answer: 'D.O.E. Plumbing is listed for both residential and commercial plumbing work in Laramie. Call to discuss your specific property and project.' },
-  { question: 'Can I call about a water heater or clogged drain?', answer: 'Yes. Water heaters and drain or sewer concerns are among the plumbing needs associated with D.O.E. Plumbing. A call is the best way to describe the issue and ask about scheduling.' },
-  { question: 'What if I have an urgent leak?', answer: 'If it is safe to do so, shut off the nearest water supply or the main water valve, then call D.O.E. Plumbing. Ask about current availability when you call.' },
-]
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   const closeMenu = () => setMenuOpen(false)
@@ -52,7 +46,7 @@ function App() {
     <header className="site-header"><div className="container header-inner">
       <Logo />
       <nav id="primary-navigation" className={'site-nav' + (menuOpen ? ' is-open' : '')} aria-label="Main navigation">
-        <a href="#services" onClick={closeMenu}>Services</a><a href="#about" onClick={closeMenu}>About</a><a href="#reviews" onClick={closeMenu}>Reviews</a><a href="#faq" onClick={closeMenu}>FAQs</a><a className="nav-contact" href="#contact" onClick={closeMenu}>Contact</a>
+        <a href="#services" onClick={closeMenu}>Services</a><a href="#about" onClick={closeMenu}>About</a><a href="#reviews" onClick={closeMenu}>Reviews</a><a className="nav-contact" href="#contact" onClick={closeMenu}>Contact</a>
       </nav>
       <a className="header-call" href={tel}><Icon name="phone" size={18} /><span>{phone}</span></a>
       <button className="menu-button" type="button" aria-label={menuOpen ? 'Close menu' : 'Open menu'} aria-controls="primary-navigation" aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><Icon name={menuOpen ? 'close' : 'menu'} size={25} /></button>
@@ -74,11 +68,9 @@ function App() {
         </div>
         <p className="reviews-footnote">Reviews are short excerpts. <a href={reviewsUrl} target="_blank" rel="noopener noreferrer">See all Google Maps reviews <Icon name="arrow" size={16} /></a></p>
       </div></section>
-      <section className="mid-cta" aria-label="Call D.O.E. Plumbing"><div className="container mid-cta-inner"><div><span className="kicker">READY WHEN YOU NEED A HAND</span><h2>Let’s get your plumbing working again.</h2><p>Tell us what is happening and ask about current scheduling.</p></div><a className="button button-light" href={tel}><Icon name="phone" size={19} /> Call {phone}</a></div></section>
-      <section id="faq" className="section faq-section"><div className="container faq-grid"><div className="faq-intro"><span className="kicker">COMMON QUESTIONS</span><h2>Good to know before you call.</h2><p>Have a different question? We are only a phone call away.</p><a className="text-link" href={tel}>Call {phone} <Icon name="arrow" size={18} /></a></div><div className="faq-list">{faqs.map((faq) => <details className="faq-item" key={faq.question}><summary>{faq.question}<span className="faq-plus" aria-hidden="true">+</span></summary><p>{faq.answer}</p></details>)}</div></div></section>
       <section id="contact" className="contact-section"><div className="container contact-grid"><div className="contact-copy"><span className="kicker">GET IN TOUCH</span><h2>We’re just a call away.</h2><p>Whether you have a quick question or a plumbing project to plan, call D.O.E. Plumbing and tell us what you need.</p><a className="contact-number" href={tel}><Icon name="phone" size={26} /> {phone}</a><span className="contact-hint">Tap to call from your phone</span></div><div className="contact-card"><h3>Find D.O.E. Plumbing</h3><div className="contact-detail"><span><Icon name="pin" size={23} /></span><div><strong>Our Laramie location</strong><p>3708 E Grand Ave<br />Laramie, WY 82070</p><a href={map} target="_blank" rel="noopener noreferrer">Get directions <Icon name="arrow" size={16} /></a></div></div><div className="contact-detail"><span><Icon name="clock" size={23} /></span><div><strong>Planning a visit?</strong><p>Public listings show weekday business hours. Please call to confirm today’s hours and service availability.</p></div></div></div></div></section>
     </main>
-    <footer className="site-footer"><div className="container footer-main"><div><Logo light /><p>Practical plumbing help for Laramie homes and businesses.</p></div><div className="footer-links"><strong>Explore</strong><a href="#services">Services</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#faq">FAQs</a></div><div className="footer-links"><strong>Reach us</strong><a href={tel}>{phone}</a><a href={map} target="_blank" rel="noopener noreferrer">3708 E Grand Ave<br />Laramie, WY 82070</a></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} D.O.E. Plumbing. Laramie, Wyoming.</span><a href="#top">Back to top ↑</a></div></footer>
+    <footer className="site-footer"><div className="container footer-main"><div><Logo light /><p>Practical plumbing help for Laramie homes and businesses.</p></div><div className="footer-links"><strong>Explore</strong><a href="#services">Services</a><a href="#about">About</a><a href="#reviews">Reviews</a></div><div className="footer-links"><strong>Reach us</strong><a href={tel}>{phone}</a><a href={map} target="_blank" rel="noopener noreferrer">3708 E Grand Ave<br />Laramie, WY 82070</a></div></div><div className="container footer-bottom"><span>© {new Date().getFullYear()} D.O.E. Plumbing. Laramie, Wyoming.</span><a href="#top">Back to top ↑</a></div></footer>
   </div>
 }
 export default App
