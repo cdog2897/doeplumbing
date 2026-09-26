@@ -67,13 +67,10 @@ h1 em{color:var(--teal);font-style:normal}
 .services-heading h2{max-width:610px}
 .services-heading p{max-width:400px;margin-bottom:4px}
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
-.service-card{background:#fff;border:1px solid #e6edeb;border-radius:6px;padding:30px 29px 27px;min-height:294px;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}
-.service-card:hover{transform:translateY(-4px);box-shadow:0 15px 40px rgba(26,70,73,.08)}
+.service-card{background:#fff;border:1px solid #e6edeb;border-radius:6px;padding:30px 29px 27px;min-height:242px}
 .service-icon{width:54px;height:54px;display:grid;place-items:center;background:#e9f2f0;border-radius:5px;color:var(--teal);margin-bottom:23px}
 .service-card h3{font-size:19px;color:var(--ink-deep);letter-spacing:-.02em;margin-bottom:10px}
-.service-card p{font-size:14px;line-height:1.65;color:var(--muted);margin-bottom:22px}
-.service-card a{display:flex;align-items:center;gap:7px;color:var(--teal);font-size:13px;font-weight:800;text-decoration:none;margin-top:auto}
-.service-card a:hover{text-decoration:underline}
+.service-card p{font-size:14px;line-height:1.65;color:var(--muted);margin-bottom:0}
 .services-footnote{text-align:center;margin:30px 0 0;font-size:14px;color:var(--muted)}
 .services-footnote a{font-weight:800;color:var(--teal)}
 .about-section{background:#fff}
