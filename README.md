@@ -25,5 +25,6 @@ Sources checked September 2026:
 - [Yellow Pages listing](https://www.yellowpages.com/laramie-wy/mip/doe-plumbing-472798509)
 - [Yellow Pages customer reviews](https://www.yellowpages.com/laramie-wy/mip/doe-plumbing-10814143)
 - [Google Maps listing and reviews](https://www.google.com/maps/place/Doe+Plumbing/@41.3064518,-105.5481902,17z/data=!4m16!1m9!3m8!1s0x876890592a9773b5:0x80baa4cc06eec5ac!2sDoe+Plumbing!8m2!3d41.3064518!4d-105.5481902!9m1!1b1!16s%2Fg%2F12616zrsg!3m5!1s0x876890592a9773b5:0x80baa4cc06eec5ac!8m2!3d41.3064518!4d-105.5481902!16s%2Fg%2F12616zrsg)
+- [Oatey P-trap installation guide](https://www.oatey.com/resources/project-guides/how-install-p-trap) used to check the under-sink photo's tailpiece, trap bend, and wall tube layout.
 
 The D.O.E. mascot and legacy logo artwork were supplied by the user. The two plumbing photographs are original generated illustrations for this site. They depict generic plumbing work and are not photos of D.O.E. Plumbing staff or customer projects. The three short review excerpts on the page are attributed to Ashley Montalvo, Wesley dunn, and Katie Kern on Google Maps, as viewed in September 2026.
