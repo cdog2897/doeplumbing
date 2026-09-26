@@ -118,6 +118,10 @@ h1 em{color:var(--teal);font-style:normal}
 .contact-detail>span{color:var(--teal);padding-top:1px}
 .contact-detail strong{display:block;font-size:14px;color:var(--ink-deep);margin-bottom:8px}
 .contact-detail p{font-size:14px;line-height:1.65;color:var(--muted);margin-bottom:7px}
+.hours-list{display:grid;gap:5px;margin:0 0 10px;font-size:14px;line-height:1.5}
+.hours-list>div{display:flex;justify-content:space-between;gap:12px}
+.hours-list dt{color:var(--muted)}
+.hours-list dd{margin:0;color:var(--ink-deep);font-weight:700;text-align:right}
 .contact-detail a{display:flex;align-items:center;gap:6px;color:var(--teal);font-size:13px;font-weight:800;text-decoration:none}
 .contact-detail a:hover{text-decoration:underline}
 .site-footer{background:var(--ink-deep);color:#fff}

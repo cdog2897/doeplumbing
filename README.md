@@ -17,7 +17,7 @@ For a production check:
 
 ## Business information
 
-The site uses the phone number **(307) 745-0571** and **3708 E Grand Ave, Laramie, WY 82070**. Service categories and residential/commercial wording are based on public listings and customer reviews. Business hours are deliberately not stated as exact hours because public listings disagree; the page asks visitors to call to confirm. A user-provided D.O.E. brand graphic says "24 hr. service," but that older graphic is cropped on the site because current availability has not been confirmed.
+The site uses the phone number **(307) 745-0571** and **3708 E Grand Ave, Laramie, WY 82070**. Service categories and residential/commercial wording are based on public listings and customer reviews. Business hours are shown as Monday–Friday, 8:30 AM–4:30 PM, and closed Saturday–Sunday, based on a screenshot supplied by the user in September 2026. A user-provided D.O.E. brand graphic says "24 hr. service," but that older graphic is cropped on the site because current availability has not been confirmed.
 
 Sources checked September 2026:
 
