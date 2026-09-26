@@ -115,9 +115,11 @@ h1 em{color:var(--teal);font-style:normal}
 .contact-card{background:#fff;border-radius:6px;padding:35px 37px;box-shadow:0 18px 50px rgba(31,73,77,.06)}
 .contact-card h3{font-family:Georgia,serif;font-size:24px;color:var(--ink-deep);margin-bottom:23px}
 .contact-detail{display:flex;gap:15px;padding:21px 0;border-top:1px solid var(--line)}
+.contact-detail:last-child{padding-bottom:0}
 .contact-detail>span{color:var(--teal);padding-top:1px}
 .contact-detail strong{display:block;font-size:14px;color:var(--ink-deep);margin-bottom:8px}
 .contact-detail p{font-size:14px;line-height:1.65;color:var(--muted);margin-bottom:7px}
+.contact-detail:last-child p:last-child{margin-bottom:0}
 .hours-list{display:grid;gap:5px;margin:0 0 10px;font-size:14px;line-height:1.5}
 .hours-list>div{display:flex;justify-content:space-between;gap:12px}
 .hours-list dt{color:var(--muted)}
